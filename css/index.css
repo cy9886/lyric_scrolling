@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(0, 0, 0, .86);
+    color: rgb(185, 185, 185);
+    text-align: center;
+}
+
+audio {
+    width: 450px;
+    margin: 30px 0;
+}
+
+.container {
+    height: 500px;
+    overflow: hidden;
+}
+
+.lrc_list {
+    transition: .6s;
+}
+
+.lrc_list li {
+    height: 30px;
+    line-height: 30px;
+    transition: .3s;
+}
+
+
+.lrc_list li.active {
+    color: #fff;
+    transform: scale(1.3);
+}
